@@ -1,0 +1,56 @@
+
+body {
+    /*background-color: #e6e8ea;*/
+    background-color: #ffffff;
+}
+
+
+nav {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 15px;
+}
+
+.card-image {
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+.card-image, .card-author, .card-date, .card-description{
+    margin-bottom: 7px;
+}
+
+.col-6 {
+    /*padding-right: 0;*/
+}
+.card-img__max {
+    height: 500px;
+}
+
+.card-btn {
+    display: flex;
+}
+
+.card-btn a {
+    margin-right: 10px;
+}
+
+.card-description {
+    margin-top: 20px;
+}
+
+.text-block {
+    margin: 5px;
+    padding: 5px;
+    border: solid 1px #dfdfdf;
+    border-radius: 10px;
+}
+
+.card-center {
+    display: flex;
+    justify-content: center;
+}
