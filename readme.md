@@ -55,9 +55,11 @@ MySQL command line
 mysql> use blog_laravel;
 mysql> source blog_laravel.sql;
 ```
-
+Password for all email `123` from the _user_ table
 
 <br />
 
 ### Step 5 :
 `php artisan serve`
+
+_P. S. Check routes in routes.txt file_
