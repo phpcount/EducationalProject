@@ -1,19 +1,20 @@
 # How to use this project?
+<span style="color:green">In the current project folder and run in terminal</span>
 
-In the current project folder
-
-Run in terminal
 ### Step 1:
 `composer install`
 
+<br />
 
 ### Step 2:
 `npm install`
 
+<br />
 
 ### Step 3 :
 Configure the database connection in the file **.env**
 
+<br />
 
 ### Step 4 :
 ##### In your database management system create a database called "blog_laravel"
@@ -47,10 +48,13 @@ The same in Windows command prompt:
 
 MySQL command line
 
-`mysql> use blog_laravel;`
+```
+mysql> use blog_laravel;
+mysql> source blog_laravel.sql;
+```
 
-`mysql> source blog_laravel.sql;`
 
+<br />
 
 ### Step 5 :
 `php artisan serve`
