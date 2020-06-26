@@ -1,5 +1,5 @@
 # How to use this project?
-<span style="color:green">In the current project folder and run in terminal</span>
+In the current project folder and run in terminal
 
 ### Step 1:
 `composer install`
