@@ -19,15 +19,18 @@ Configure the database connection in the file **.env**
 ### Step 4 :
 ##### In your database management system create a database called "blog_laravel"
 
-Creating tables and generating data  for them in Laravel
+Creating tables and generating data  for them in **Laravel**
+
+Add tables to the database 
+
+`php artisan migrate`
 
 
 Factories
-
-`php artisan make:factory UserFactory --model=User`
-
-`php artisan make:factory PostFactory --model=Post`
-
+```
+php artisan make:factory UserFactory --model=User
+php artisan make:factory PostFactory --model=Post
+```
 
 Seed
 
